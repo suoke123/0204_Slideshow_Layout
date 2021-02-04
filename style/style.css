@@ -48,6 +48,14 @@ div#wrap {
     border: 4px solid #f00;
 
     position: relative;
+    left: 0;
+
+    transition: all 3s;
+}
+
+#main div#slideshow:hover {
+    left: -1200px;
+
 }
 
 #main #slideshow>ul>li {
